@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 let username = prompt("Hello, could you plase tell me your name?");
 //line 3 is called a statement and statements always end with a semicolon. username is the object. = is an assignement operator. prompt() is a method. The content within the () is called the parameters.
@@ -10,7 +10,7 @@ function getuserName(){
 }
 //A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).
 
-let usernameReturn = alert("Welcome to my webpage " + username + "!");
+alert("Welcome to my webpage " + username + "!");
 //"let" is a variable keyword. "usernameReturn" is the variable name. let usernameReturn is declaring a variable. = alert() is the variable value.
 let backpacking = prompt("Have you ever been backpacking? Yes or No");
 let lowercaseBackpacking = backpacking.toLowerCase();
