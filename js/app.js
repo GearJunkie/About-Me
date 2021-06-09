@@ -1,17 +1,20 @@
 'use strict';
 
 let username = prompt("Hello, could you plase tell me your name?");
+//line 3 is called a statement and statements always end with a semicolon. username is the object. = is an assignement operator. prompt() is a method. The content within the () is called the parameters.
 
 function getuserName(){
   console.log("The user's name is" + username);
   document.write('<h2>' + username + ' Please take a moment to know a little about myself!</h2>');
   return username;
 }
+//A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).
 
 let usernameReturn = alert("Welcome to my webpage " + username + "!");
-
+//"let" is a variable keyword. "usernameReturn" is the variable name. let usernameReturn is declaring a variable. = alert() is the variable value.
 let backpacking = prompt("Have you ever been backpacking? Yes or No");
 let lowercaseBackpacking = backpacking.toLowerCase();
+//the dot between backpacking.toLowerCase() is a member operator.
 console.log(backpacking + lowercaseBackpacking);
 
 if (lowercaseBackpacking === "yes" || lowercaseBackpacking === "y") {
@@ -21,6 +24,7 @@ if (lowercaseBackpacking === "yes" || lowercaseBackpacking === "y") {
 } else {
   alert("Just a yes or no will do...");
 }
+//This is a conditional statement. The condition is contained w/in the (). "If" a condition is met, "then" your code executes one or more statements, "else" your code executes something different.
 
 let packrafting = prompt("Have you ever been packrafting? Yes or No");
 let lowercasePackrafting = packrafting.toLowerCase();
