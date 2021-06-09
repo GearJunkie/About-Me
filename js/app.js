@@ -5,7 +5,7 @@ let username = prompt("Hello, could you plase tell me your name?");
 
 function getuserName(){
   console.log("The user's name is" + username);
-  document.write('<h2>' + username + ' Please take a moment to know a little about myself!</h2>');
+  document.write('<h2>' + username + ' please take a moment to know a little about myself!</h2>');
   return username;
 }
 //A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).
