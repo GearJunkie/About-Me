@@ -4,6 +4,7 @@ let username = prompt("Hello, could you plase tell me your name?");
 
 function getuserName(){
   console.log("The user's name is" + username);
+  document.write('<h2>' + username + ' Please take a moment to know a little about myself!</h2>');
   return username;
 }
 
