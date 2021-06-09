@@ -1,0 +1,15 @@
+body * {box-sizing: border-box;
+  background-color: linen;
+}
+
+header {
+  display: block;
+  background-color: cadetblue;
+  color: maroon;
+  font-size: 3em;
+  text-align: center;
+}
+
+main {
+  column-count: 4;
+}
