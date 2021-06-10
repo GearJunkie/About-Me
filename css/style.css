@@ -1,6 +1,7 @@
-body * {box-sizing: border-box;
+body * {
   background-color: linen;
   text-align: center;
+  margin: auto;
 }
 
 header {
@@ -13,4 +14,10 @@ header {
 
 main {
   column-count: 4;
+  column-gap: normal;
+  column-width: auto;
+}
+
+h2 {
+  margin: 30px;
 }
