@@ -1,23 +1,25 @@
 body * {
   background-color: linen;
   text-align: center;
-  margin: auto;
 }
 
 header {
-  display: block;
+  display: inline-block;
   background-color: cadetblue;
   color: maroon;
   font-size: 3em;
   text-align: center;
+  padding: 10px;
 }
 
-main {
-  column-count: 4;
-  column-gap: normal;
-  column-width: auto;
+.column1of4, .column2of4, .column3of4, .column4of4 {
+  width: 250px;
+  float: left;
+  margin: 10px;
+  text-align: center;
 }
 
-h2 {
-  margin: 30px;
+footer {
+  text-align: center;
+  display: block;
 }
