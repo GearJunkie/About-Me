@@ -113,16 +113,16 @@ let theRightAnswer = false;
     let userGuess = prompt("Name one of my favorite types of cuisine!");
     for (let index = 0; index < cuisineArray.length; index++) {
       if (userGuess === cuisineArray[index]) {
-      alert("Yes, you got it! My favorite cuisines are Peruvian, Mediterranean, and Korean.");
-      guessScore++
-      theRightAnswer = true;
+        alert("Yes, you got it! My favorite cuisines are Peruvian, Mediterranean, and Korean.");
+        guessScore++
+        theRightAnswer = true;
       break;
       }
     }
       if (theRightAnswer === false && guessAttempts > 1) {
-      alert("Sorry, but that is not one of my favorites. Please try again.");
+        alert("Sorry, but that is not one of my favorites. Please try again.");
     }
-      if (theRightAnswer === false && guessAttempts == 1) {
+      else if (theRightAnswer === false && guessAttempts == 1) {
         alert("You did not answer correctly. The answers were; Peruvian, Mediterranean, and Korean.")
         theRightAnswer = true;
         break;
