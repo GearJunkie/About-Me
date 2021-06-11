@@ -1,25 +1,96 @@
-body * {
+body {
+  width: 95%;
+  margin:auto;
   background-color: linen;
-  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 header {
-  display: inline-block;
-  background-color: cadetblue;
-  color: maroon;
-  font-size: 3em;
-  text-align: center;
-  padding: 10px;
-}
-
-.column1of4, .column2of4, .column3of4, .column4of4 {
-  width: 250px;
-  float: left;
-  margin: 10px;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
   display: block;
+  background-color: maroon;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 25px;
+  border: 2px solid lightskyblue;
+  border-radius: 10px;
+  text-align: center;
+  width: 95%;
+}
+
+a {
+  color: lightskyblue;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+li, a {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+h1 {
+  background-color: maroon;
+  color: linen;
+  position: fixed;
+  border: 3px solid black;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  display: inline;
+}
+
+h2 {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+
+img {
+  display: block;
+  margin: 5px;
+  
+}
+
+p {
+  text-align:center;
+}
+
+.bio {
+  justify-content: center;
+  display: inline-block;
+  width: 95%;
+  margin-left: 25px;
+}
+
+.container {
+display: block;
+}
+
+.education {
+
+}
+
+.information {
+
+}
+
+.goals {
+
+}
+
+.topten {
+  display: inline-block;
+  justify-content: center;
+  margin: 5px;
+  width: 95%;
 }
