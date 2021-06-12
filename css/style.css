@@ -42,13 +42,15 @@ li, a {
 
 h1 {
   background-color: maroon;
-  color: linen;
+  color: lightskyblue;
   position: fixed;
   border: 2% solid black;
   text-align: center;
-  font-size: larger;
+  font-size: x-large;
   font-weight: bold;
   display: inline;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 h2 {
