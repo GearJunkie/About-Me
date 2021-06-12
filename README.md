@@ -1,18 +1,17 @@
-# LAB - Number
+# LAB - Number 05
 
-## Project Name
+## Project Name - About Me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+this is a simple webpage that shares some information to get to know who I am. I've included some prompts that ask for the user's name, which displays their name and a message on a sticky. I've also created some yes or no questions for the user to answer, as well as a couple of guessing games. Lastly I alert the user of how many questions they got right.
 
-### Author: Student/Group Name
+### Author: Jesse Dills
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
+Jon Duckett's HTML & CSS, and JavaScript & JQuery textbooks.
+Images used from the web are copyrighted on the bottom of my webpage.
 
 ### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+This was a difficult project as a beginner developer. I was exposed to so much content, that it felt overwhelming at times. But with some determination, and guidance from my instructors, TA's, and fellow classmates, I succeeded in getting a basic knowledge and understanding.
 
 ### Collaboration
 Driver: Peter Luna
